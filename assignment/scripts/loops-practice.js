@@ -47,6 +47,7 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
+// declare constellation outside of for of loop?
 for(let constellation of stars) {
   console.log(constellation);
 }
