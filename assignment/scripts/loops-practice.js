@@ -36,6 +36,7 @@ for (let i = 2; i <= 10; i += 2) {
 }
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
+// no reason to use i > -1 instead, right?  seems cleaner this way since i only care about 0
 // start i at 5, while i >= 0  console log i, after decrement by 1
 for (i = 5; i >= 0; i--) {
   console.log(i);
