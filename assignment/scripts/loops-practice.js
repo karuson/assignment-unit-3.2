@@ -72,7 +72,7 @@ console.log('---- 3. While loop ----');
 console.log('Some stars using while:');
 
 let i = 0;
-let starsLength = stars.length;
+const starsLength = stars.length;
 // while loop
 while (i < starsLength) {
   let constellation = stars[i];
