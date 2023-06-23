@@ -70,15 +70,18 @@ for(let constellation of stars) {
 console.log('---- 3. While loop ----');
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
+// let i = 0, while i is less than the length of our stars array, make a variable constellation and
+// assign the string from array at that index, increment i
 
-let i = 0;
-const starsLength = stars.length;
+// I didn't actually need to do this, was going to use in while loop for the max
+// const starsLength = stars.length;
+let i = 0; 
 // while loop
-while (i < starsLength) {
+while (i < stars.length) {
   let constellation = stars[i];
   console.log(constellation);
   i++;
-}
+} // end while
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
